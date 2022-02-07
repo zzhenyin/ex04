@@ -20,7 +20,7 @@ public class SampleTxServiceImpl implements SampleTxService{
 	@Setter(onMethod_ = { @Autowired })
 	private Sample2Mapper mapper2;
 	
-	//@Transactional	// Æ®·£Àè¼Ç Ã³¸® > ½ÇÇà½Ã rollback()
+	//@Transactional	// íŠ¸ëœì­ì…˜ì²˜ë¦¬ > ì˜ˆì™¸ë°œìƒì‹œ rollback()
 	@Override
 	public void addData(String value) {
 		
